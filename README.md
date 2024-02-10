@@ -29,6 +29,18 @@ These problems have a negative impact on PARK's business in the following ways:
 
 
 
+https://github.com/samolubukun/PARK-Auto-Dealer-Management-System/assets/137217836/f6e2c86b-3cf1-4a70-b45c-8f275344cd2a
+
+
+
+https://github.com/samolubukun/PARK-Auto-Dealer-Management-System/assets/137217836/2c2c4d4c-8074-43e4-9f2c-b6bd8c725f33
+
+
+
+https://github.com/samolubukun/PARK-Auto-Dealer-Management-System/assets/137217836/711b9dc2-7ac6-4bb0-9d61-e391cf567ca4
+
+
+
 PARK Auto Dealer Management System is a web-based solution tailored for used auto or car dealerships, offering a comprehensive set of features to manage various aspects of dealership operations. From customer information to sales reports, the system provides functionalities to streamline processes and enhance efficiency.
 
 ## Features
