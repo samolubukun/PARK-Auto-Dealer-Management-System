@@ -1,6 +1,6 @@
 # PARK Auto Dealer Management System
 
-![PARK Auto Dealer Management System](https://placehold.it/700x300)
+![PARK Auto Dealer Management System]
 
 PARK Auto Dealer Management System is a web-based solution tailored for used auto or car dealerships, offering a comprehensive set of features to manage various aspects of dealership operations. From customer information to sales reports, the system provides functionalities to streamline processes and enhance efficiency.
 
