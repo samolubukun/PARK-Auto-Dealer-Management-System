@@ -1,6 +1,33 @@
 # PARK Auto Dealer Management System
+## Problem Description
 
-PARK Auto Dealer Management System
+PARK Auto Dealers lack a comprehensive system for managing customer information and tracking sales leads. It faces challenges in efficiently collecting and managing customer information. The manual process of filling out forms leads to incomplete and potentially inaccurate data. This lack of comprehensive customer information hinders the company's ability to tailor marketing efforts, identify successful advertising channels, and optimize overall business strategies.
+
+### Challenges
+
+1. **Inability to analyze customer behavior**: PARK cannot easily determine which marketing channels are most effective in driving sales leads and actual sales. This hinders their ability to optimize advertising and marketing spend and allocate resources effectively.
+   
+2. **Difficulties in identifying customers**: PARK cannot easily determine which prospects have made purchases, leading to inefficient customer service and marketing campaigns.
+   
+3. **Limited data analysis**: PARK lacks the ability to perform detailed analysis on customer data, preventing them from gaining valuable insights into their customer base and market trends.
+
+## Business Impact
+
+These problems have a negative impact on PARK's business in the following ways:
+
+1. **Reduced sales**: Lack of customer knowledge hinders targeted marketing campaigns, potentially leading to missed sales opportunities.
+   
+2. **Inefficient marketing spending**: PARK may be spending resources on ineffective marketing channels, while neglecting those with higher potential return on investment.
+   
+3. **Poor customer service**: Inability to identify past customers and their preferences can lead to impersonal and inefficient customer service interactions.
+
+## Additional Information
+
+- PARK sells only Peugeot cars.
+- Leads are generated through newspaper advertisements, word of mouth, and website visits.
+
+
+
 
 PARK Auto Dealer Management System is a web-based solution tailored for used auto or car dealerships, offering a comprehensive set of features to manage various aspects of dealership operations. From customer information to sales reports, the system provides functionalities to streamline processes and enhance efficiency.
 
