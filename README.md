@@ -97,6 +97,6 @@ That's it! The plugins are now ready to be used with the web app.
 
 ## Credits
 
-The Park Auto Dealer Management System builds upon the foundation of the Auto Dealer Management System created by the team at [Source Code Ster](https://www.sourcecodester.com/php/15371/auto-dealer-management-system-phpoop-free-source-code.html). I express my gratitude for their initial work and contribution to the development of this project.
+The Park Auto Dealer Management System builds upon the foundation of the Auto Dealer Management System created by the team at [Source CodeSter](https://www.sourcecodester.com/php/15371/auto-dealer-management-system-phpoop-free-source-code.html). I express my gratitude for their initial work and contribution to the development of this project.
 The enhancements and additional features of the Park Auto Dealer Management System were implemented by me [Olubukun Samuel](https://github.com/samolubukun).
 
