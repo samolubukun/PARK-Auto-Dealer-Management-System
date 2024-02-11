@@ -85,7 +85,9 @@ The Park Auto Dealer Management System is built using the following technologies
 - **Real-time Collaboration**: Facilitates real-time collaboration among users.
 - **Platform Independence**: Works across various devices and browsers.
 
-## To Create the database refer the [SQL Database File](https://github.com/samolubukun/PARK-Auto-Dealer-Management-System/blob/main/PARK%20ADMS/SQL%20(Database) 
+## To Create The Database 
+To create the database, refer to the [SQL Database File](https://github.com/samolubukun/PARK-Auto-Dealer-Management-System/blob/main/PARK%20ADMS/SQL%20(Database)) in the GitHub repository.
+
 
 ## Credits
 
