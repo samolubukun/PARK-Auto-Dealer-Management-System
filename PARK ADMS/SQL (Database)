@@ -1,0 +1,121 @@
+To create the database structure for the PARK ADMS, you can follow these steps:
+
+1. **Database Creation**:
+   - Create a new database named `adms_db`.
+
+2. **Table Creation**:
+   - Create the following tables with their respective fields:
+
+     - Table `brand_list`:
+       - Fields:
+         - `id` (INT, Primary Key, Auto Increment)
+         - `name` (TEXT)
+         - `status` (TINYINT)
+         - `delete_flag` (TINYINT)
+         - `date_created` (DATETIME)
+         - `date_updated` (DATETIME)
+
+     - Table `car_type_list`:
+       - Fields:
+         - `id` (INT, Primary Key, Auto Increment)
+         - `name` (TEXT)
+         - `status` (TINYINT)
+         - `delete_flag` (TINYINT)
+         - `date_created` (DATETIME)
+         - `date_updated` (DATETIME)
+
+     - Table `customers`:
+       - Fields:
+         - `CustomerID` (INT, Primary Key, Auto Increment)
+         - `FirstName` (VARCHAR)
+         - `LastName` (VARCHAR)
+         - `Address` (VARCHAR)
+         - `PhoneNumber` (VARCHAR)
+         - `Email` (VARCHAR)
+         - `DateOfVisit` (DATE)
+         - `ModelOfInterest` (VARCHAR)
+         - `LeadSource` (ENUM)
+
+     - Table `model_list`:
+       - Fields:
+         - `id` (INT, Primary Key, Auto Increment)
+         - `brand_id` (INT)
+         - `model` (TEXT)
+         - `engine_type` (TEXT)
+         - `transmission_type` (TEXT)
+         - `car_type_id` (INT)
+         - `technology` (TEXT)
+         - `status` (TINYINT)
+         - `delete_flag` (TINYINT)
+         - `date_created` (DATETIME)
+         - `date_updated` (DATETIME)
+
+     - Table `system_info`:
+       - Fields:
+         - `id` (INT, Primary Key, Auto Increment)
+         - `meta_field` (TEXT)
+         - `meta_value` (TEXT)
+
+     - Table `transaction_list`:
+       - Fields:
+         - `id` (INT, Primary Key, Auto Increment)
+         - `vehicle_id` (INT)
+         - `agent_name` (TEXT)
+         - `date_created` (DATETIME)
+         - `date_updated` (DATETIME)
+         - `FirstName` (VARCHAR)
+         - `LastName` (VARCHAR)
+         - `Address` (VARCHAR)
+         - `PhoneNumber` (VARCHAR)
+         - `Email` (VARCHAR)
+         - `DateOfVisit` (DATE)
+
+     - Table `users`:
+       - Fields:
+         - `id` (INT, Primary Key, Auto Increment)
+         - `firstname` (VARCHAR)
+         - `middlename` (TEXT)
+         - `lastname` (VARCHAR)
+         - `username` (TEXT)
+         - `password` (TEXT)
+         - `avatar` (TEXT)
+         - `last_login` (DATETIME)
+         - `type` (TINYINT)
+         - `date_added` (DATETIME)
+         - `date_updated` (DATETIME)
+
+     - Table `vehicle_list`:
+       - Fields:
+         - `id` (INT, Primary Key, Auto Increment)
+         - `model_id` (INT)
+         - `mv_number` (TEXT)
+         - `plate_number` (TEXT)
+         - `variant` (TEXT)
+         - `mileage` (VARCHAR)
+         - `engine_number` (VARCHAR)
+         - `chasis_number` (VARCHAR)
+         - `price` (FLOAT)
+         - `status` (TINYINT)
+         - `delete_flag` (TINYINT)
+         - `date_created` (DATETIME)
+         - `date_updated` (DATETIME)
+
+3. **Relationships**:
+   - Define the following relationships:
+     - For `model_list` table:
+       - Add a foreign key constraint (`brand_id_fk_ml`) on `brand_id` referencing `id` in `brand_list`.
+       - Add a foreign key constraint (`car_type_id_fk_ml`) on `car_type_id` referencing `id` in `car_type_list`.
+
+     - For `transaction_list` table:
+       - Add a foreign key constraint (`vehicle_id_fk_tl`) on `vehicle_id` referencing `id` in `vehicle_list`.
+
+     - For `vehicle_list` table:
+       - Add a foreign key constraint (`model_id_fk_vl`) on `model_id` referencing `id` in `model_list`.
+
+4. **Instructions**:
+   - Use SQL commands to create tables and define relationships in your database management system (e.g., MySQL, MariaDB).
+   - Store these SQL commands in a `.sql` file.
+   - Include a README.md file explaining the purpose of the database and how to use it.
+   - Commit these files to your GitHub repository.
+
+By following these steps, you can create a database structure for the PARK ADMS.
