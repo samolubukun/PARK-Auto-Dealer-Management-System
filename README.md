@@ -27,6 +27,7 @@ These problems have a negative impact on PARK's business in the following ways:
 - Leads are generated through newspaper advertisements, word of mouth, and website visits.
 
 
+
 ##    WebApp Overview
 
 https://github.com/samolubukun/PARK-Auto-Dealer-Management-System/assets/137217836/f6e2c86b-3cf1-4a70-b45c-8f275344cd2a
@@ -95,8 +96,9 @@ To create the database, refer to the [SQL Database File](https://github.com/samo
 That's it! The plugins are now ready to be used with the web app.
 
 
+
 ## Credits
 
-The Park Auto Dealer Management System builds upon the foundation of the Auto Dealer Management System created by the team at [Source CodeSter](https://www.sourcecodester.com/php/15371/auto-dealer-management-system-phpoop-free-source-code.html). I express my gratitude for their initial work and contribution to the development of this project.
+The Park Auto Dealer Management System builds upon the foundation of the Auto Dealer Management System created by the oretnom23 at [Source CodeSter](https://www.sourcecodester.com/php/15371/auto-dealer-management-system-phpoop-free-source-code.html). I express my gratitude for their initial work and contribution to the development of this project.
 The enhancements and additional features of the Park Auto Dealer Management System were implemented by me [Olubukun Samuel](https://github.com/samolubukun).
 
