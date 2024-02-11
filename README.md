@@ -88,6 +88,12 @@ The Park Auto Dealer Management System is built using the following technologies
 ## To Create The Database 
 To create the database, refer to the [SQL Database File](https://github.com/samolubukun/PARK-Auto-Dealer-Management-System/blob/main/PARK%20ADMS/SQL%20(Database)) in the GitHub repository.
 
+##To integrate the plugins into the web app, follow these instructions:
+1. Form the plugins.zip file [here](https://github.com/samolubukun/PARK-Auto-Dealer-Management-System/blob/main/PARK%20ADMS/plugins.zip).
+2. Extract the folder(plugins) from the plugins.zip file.
+3. Place/leave the extracted plugins folder in the PARK ADMS folder.
+That's it! The plugins are now ready to be used with the web app.
+
 
 ## Credits
 
