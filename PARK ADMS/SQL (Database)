@@ -112,10 +112,4 @@ To create the database structure for the PARK ADMS, you can follow these steps:
      - For `vehicle_list` table:
        - Add a foreign key constraint (`model_id_fk_vl`) on `model_id` referencing `id` in `model_list`.
 
-4. **Instructions**:
-   - Use SQL commands to create tables and define relationships in your database management system (e.g., MySQL, MariaDB).
-   - Store these SQL commands in a `.sql` file.
-   - Include a README.md file explaining the purpose of the database and how to use it.
-   - Commit these files to your GitHub repository.
 
-By following these steps, you can create a database structure for the PARK ADMS.
